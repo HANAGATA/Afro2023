@@ -4,8 +4,7 @@
 .news-list {
 	margin: 0 auto;
 }
-.news-list ul {
-	margin-bottom: 40px;
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -103,4 +102,182 @@
 		align-items: flex-start;
         padding: 12px 40px 12px 30px;
 	}
+}
+
+.movie-block {
+    margin: 30px;
+}
+.movie-block h2 {
+    color: #7A5D46;
+    position: relative;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 0  0 0 20px;
+    max-width: 530px;
+
+}
+.movie-block h2::before {
+    content: '';
+    background: url("images/h2-icon.svg");
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+}
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 530px;
+    margin:10px auto;
+    gap: 10px;
+}
+.movie-item {
+    width: calc(50% - 40px);
+    background: #F9E5CD;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    padding: 0px 10px 0px 20px;
+    height: 80px;
+    align-items: center;
+    text-decoration: none;
+    transition: .5s;
+}
+.movie-item:hover {
+    transform: scale(.9);
+}
+.movie-icon {
+    background-color: #fff;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 15px;
+}
+.movie-icon::before {
+    content: '';
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+.movie-item h3 {
+    margin: 0;
+    color: #7A5D46;
+    font-size: 20px;
+    font-weight: bold;
+}
+.movie-info {
+    display: flex;
+    flex-direction: column;
+}
+.movie-info p {
+    color: #9C7D66;
+    margin: 0;
+    font-weight: bold;
+}
+.movie-icon1::before {
+    background: url("images/btn1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon2::before {
+    background: url("images/btn2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon3::before {
+    background: url("images/btn3.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon4::before {
+    background: url("images/btn4.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon5::before {
+    background: url("images/btn5.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon6::before {
+    background: url("images/btn6.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon7::before {
+    background: url("images/btn7.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon7::before {
+    background: url("images/btn7.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon8::before {
+    background: url("images/btn8.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon9::before {
+    background: url("images/btn9.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon10::before {
+    background: url("images/btn10.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon11::before {
+    background: url("images/btn11.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon12::before {
+    background: url("images/btn12.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon13::before {
+    background: url("images/btn13.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon14::before {
+    background: url("images/btn14.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon15::before {
+    background: url("images/btn15.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon16::before {
+    background: url("images/btn16.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon17::before {
+    background: url("images/btn17.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon18::before {
+    background: url("images/btn18.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon19::before {
+    background: url("images/btn19.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.movie-icon20::before {
+    background: url("images/btn20.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
