@@ -281,3 +281,32 @@ ul {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.support-btn {
+    background-color: #FEFFBC;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding: 0px 10px 0px 20px;
+    height: 80px;
+    align-items: center;
+    text-decoration: none;
+    transition: .5s;
+}
+.movie-info {
+    color: #2B2C1A;
+}
+.movie-info h3 {
+    font-weight: bold;
+}
+.movie-icon21::before {
+    background: url("images/btn21.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.support-btn:hover {
+    transform: scale(.9);
+    text-decoration: none;
+}
